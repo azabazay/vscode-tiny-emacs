@@ -1,9 +1,9 @@
 {
-  "name": "tiny-emacs",
-  "displayName": "Tiny Emacs",
-  "description": "A tiny emacs like extension in the VS Code.",
-  "version": "0.1.3",
-  "publisher": "aki77",
+  "name": "azabazay-emacs",
+  "displayName": "azabazay Emacs",
+  "description": "Emacs keybindings used by azabazay",
+  "version": "0.1.0",
+  "publisher": "azabazay",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.24.0"
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/aki77/vscode-tiny-emacs.git"
+    "url": "https://github.com/azabazay/vscode-tiny-emacs.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aki77/vscode-tiny-emacs/issues"
+    "url": "https://github.com/azabazay/vscode-tiny-emacs/issues"
   },
   "activationEvents": [
     "*"
@@ -28,7 +28,7 @@
       {
         "key": "ctrl+space",
         "command": "emacs.enterMarkMode",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && emacs.markMode"
       },
       {
         "key": "ctrl+g",
